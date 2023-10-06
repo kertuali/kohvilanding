@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+} 
+
+.intro-image {
+    background-image: url('../img/shop.jpeg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro-image_link a {
+    border: 2px solid #221f20;
+    background-color: #221f209c;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: #9a9e93;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image_link a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: #935735c5;
+    color: #633f2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.quality-image {
+    height: 450px;
+    background-image: url(../img/happy.webp);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.quality-image_link a {
+    background-color: #71616fb6;
+    border: 2px solid #d0ac8d;
+    color: #d0ac8d9c;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image_link a:hover {
+    transform: scale(1.1);
+}
+
+.quality-text {
+    background-color: #65413a;
+    color: #b68e7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.quality-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.origin-image {
+    height: 450px;
+    background-image: url(../img/coffee.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.origin-image_link a {
+    background-color: #4a6a6fa1;
+    border: 2px solid #4a6a6f;
+    color: #a8cdd5;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.origin-image_link a:hover {
+    transform: scale(1.1);
+}
+
+.origin-text {
+    background-color: #c5763b;
+    color: #ebc59a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.origin-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #50271b;
+    color: #967375;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: #967375;
+    transition: all 1.5s ease-in-out;
+}
+
+.footer ul li:hover {
+    transform: scale(1.1);
+}
+
+.footer ul li a:hover {
+    color: white;
+}
